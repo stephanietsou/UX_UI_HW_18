@@ -29,6 +29,7 @@ body {
     margin-left: auto;
     padding-right: 5vw;
     font-family: Graphik, sans-serif;
+    
 }
 
 .navigation nav ul li {
@@ -100,6 +101,29 @@ button:hover {
     background-color: #1551B1;
     color: white;
 }
+
+
+/* button a {
+    text-decoration: none;
+} */
+
+/* button a:link {
+    text-decoration: none;
+    color: #1551B1;
+}
+
+button a:visited {
+    text-decoration: none;
+    color:#1551B1;
+}
+button:visited:hover {
+    color: white;
+}
+
+button a:active {
+    text-decoration: none;
+    background-color:#1551B1 ;
+} */
 
 .content button {
     margin-top: 2vh;
@@ -243,6 +267,15 @@ footer ul li a {
     font-family: Graphik, sans-serif;
 }
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
+    /* body {
+        background-color: hotpink;
+    } */
 
+    .flexContainer {
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+        
+    }
 }
